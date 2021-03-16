@@ -28,27 +28,27 @@ def sendmessage(text):
     
 def table(y):
     if y==3:
-        timetable=open("timetable/Thursday.txt","r", encoding = 'utf8')
+        timetable=open("Thursday.txt","r", encoding = 'utf8')
         timetable=timetable.read()
         message=f"Сегодня четверг твоё рассписание:{timetable}"
         sendmessage(message)
     elif y==1:
-        timetable=open("timetable/Tuesday.txt","r", encoding = 'utf8')
+        timetable=open("Tuesday.txt","r", encoding = 'utf8')
         timetable=timetable.read()
         message=f"Сегодня вторник твоё рассписание:{timetable}"
         sendmessage(message)
     elif y==0:
-        timetable=open("timetable/Monday.txt","r", encoding = 'utf8')
+        timetable=open("Monday.txt","r", encoding = 'utf8')
         timetable=timetable.read()
         message=f"Сегодня понедельник твоё рассписание:{timetable}"
         sendmessage(message) 
     elif y==2:
-        timetable=open("timetable/Wensday.txt","r", encoding = 'utf8')
+        timetable=open("Wensday.txt","r", encoding = 'utf8')
         timetable=timetable.read()
         message=f"Сегодня среда твоё рассписание:{timetable}"
         sendmessage(message)
     elif y==4:
-        timetable=open("timetable/Friday.txt","r", encoding = 'utf8')
+        timetable=open("Friday.txt","r", encoding = 'utf8')
         timetable=timetable.read()
         message=f"Сегодня пятница твоё рассписание:{timetable}"
         sendmessage(message)
